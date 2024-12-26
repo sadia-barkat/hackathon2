@@ -1,6 +1,5 @@
-"use client";
-import React, { useState } from "react";
-import { IoIosSearch } from "react-icons/io";
+
+import React from "react";
 
 const Upperfooter = () => {
   return (

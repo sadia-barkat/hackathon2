@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Blog = () => {
   return (
@@ -13,7 +14,7 @@ const Blog = () => {
     <div className="flex flex-col -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="Rectangle1.png"
             alt="blog"
@@ -64,7 +65,7 @@ const Blog = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="Rectangle2.png"
             alt="blog"
@@ -116,7 +117,7 @@ const Blog = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="Rectangle3.png"
             alt="blog"
@@ -160,7 +161,6 @@ const Blog = () => {
                 >
                   <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
                 </svg>
-                6
               </span>
             </div>
           </div>
