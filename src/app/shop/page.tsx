@@ -2,9 +2,9 @@ import React from 'react'
 
 const Shop = () => {
   return (
-    <div className='w-[1920px] '>
-    <div className=' h-[286px] bg-indigo-50'><h1 className='text-indigo-900 font-bold text-2xl ml-[400px] pt-24'>Shop List</h1>
-    <div className='inline-flex ml-[400px]'><h2>Home .</h2>
+    <div className=' '>
+    <div className=' bg-indigo-50'><h1 className='text-indigo-900 font-bold text-2xl ml-[20px] pt-14'>Shop List</h1>
+    <div className='inline-flex ml-[20px]'><h2>Home .</h2>
       <h2>Pages .</h2>
       <h2 className='text-pink-600'>My Account</h2></div>
       </div>

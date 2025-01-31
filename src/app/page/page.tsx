@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Pages = () => {
   return (
     <section className="text-gray-600 body-font ">
-  <div className="container px-5 py-24 mx-auto ml-[400px]">
+  <div className="container px-5 py-24 mx-auto ml-[200px]">
     <div className="lg:w-4/5 mx-auto flex flex-wrap">
       <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
         <h2 className="text-3xl font-extrabold title-font text-violet-900 tracking-widest">
@@ -58,4 +58,4 @@ const Pages = () => {
   )
 }
 
-export default Pages
+export default Pages;

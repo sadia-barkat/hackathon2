@@ -4,13 +4,13 @@ import Image from 'next/image'
 const Featured  = () => {
   return (
   <div className="container px-5  mx-auto justify-center">
-    <div className="flex flex-wrap items-center w-[1200px] mb-20">
+    <div className="flex flex-wrap items-center  mb-20">
       <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 className=" w-[1200px] ml-[750px] sm:text-2xl font-bold title-font text-blue-800 mt-60 md:mt-20 ;">
+        <h1 className=" ml-[750px] sm:text-2xl font-bold title-font text-blue-800 mt-60 md:mt-20 ;">
           Featured Product
         </h1>
     </div>
-    <div className=" ml-[550px] h-[261px] w-[1200px] md:ml[300] inline-flex mt-16">
+    <div className=" ml-[550px] h-[261px] md:ml[300] inline-flex mt-16">
       <div className=" xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <Image

@@ -3,7 +3,7 @@ import React from "react";
 
 const Upperfooter = () => {
   return (
-    <footer className="text-gray-600 w-[1920px] body-font ml-1 bg-violet-100 ">
+    <footer className="text-gray-600  body-font ml-1 bg-violet-100 ">
       
 <div className="container px-10 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className=" flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
