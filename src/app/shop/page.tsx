@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Shop = () => {
@@ -13,10 +14,12 @@ const Shop = () => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="Rectangle1.png"
+            src="/Rectangle1.png"
             alt="blog"
+            height={36}
+            width={36}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xl title-font font-bold text-violet-900 mb-1">
@@ -64,10 +67,12 @@ const Shop = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="Rectangle2.png"
+            src="/Rectangle2.png"
             alt="blog"
+            height={36}
+            width={36}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xl title-font font-bold text-indigo-900 mb-1">
@@ -116,10 +121,12 @@ const Shop = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="Rectangle3.png"
+            src="/Rectangle3.png"
             alt="blog"
+            height={36}
+            width={36}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xl title-font font-bold text-indigo-900 mb-1">
