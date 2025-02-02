@@ -1,0 +1,5 @@
+,Test case ID,Description,Test steps,Expected Result,Actual Result,Status,Security Level,Assigned to,Remarks
+1,TC001,Product Listing,Open product page>Verify products,Product displayed correctly,Product displayed correctly,Passed,Low,-,No issue
+2,TC002,Test API Error handling,Disconnect API > refresh page,Show fallback UI with error,Error message shown,Passed,Medium,-,Test successful
+3,TC003,Cart functionality,Add product in cart>verify,Cart update when product added,Cart update when product added,Passed,High,-,No issue
+4,TC004,Responsive on mobile,Resize browser,Layout adjust properly,Layout adjust properly,Passed,Medium,-,No issue
